@@ -1,0 +1,57 @@
+
+.center-image {
+    text-align:center;
+}
+.margin-image{
+    margin: 10px;
+}
+.imagem{
+    width: 25%;
+
+}
+.footer{
+
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    padding:5px;
+    background-color:rgb(122, 114, 114);
+    color: white;
+} 
+
+.topbuffer{
+    margin-top: 5%;
+}
+
+.bottombuffer{
+    margin-bottom: 5%;
+}
+.logo{
+    height: 75%;
+    width: 75%;
+}
+
+/* ***************************************** */
+.side-buffer{
+    margin-left: 15%;
+}
+#sidebar {
+    min-width: 150px;
+    max-width: 15%;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    transition: all 0.3s;
+    position: fixed;
+}
+
+.botao-menu {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
