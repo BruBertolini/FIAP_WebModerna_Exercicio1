@@ -15,29 +15,59 @@
 <body>
     <nav id="sidebar">
         <a class="" href="#">
-            <img src="img/logo.png" class="rounded-circle margin-image logo">
+            <img src="img/logo.jpg" class="rounded-circle margin-image logo">
         </a>
-        <div class="" id="navbarNavAltMarkup">
+        <div class="topbuffer" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="botao-menu" href="#">Inicio</a>
                 <a class="botao-menu" href="#academico">Acadêmico</a>
                 <a class="botao-menu" href="#experiencias">Experiências</a>
                 <a class="botao-menu" href="#idiomas">Idiomas</a>
                 <a class="botao-menu" href="#outros">Outros Conhecimentos</a>
-               
+                
+                <div id="infoLinks" class="sidebar-down">
+                    <a class="botao-menu info-links" href="https://github.com/BruBertolini">
+                        <img src="img/git.png" class="rounded-circle icone">
+                        <small>github.com/BrunaBertolini  </small>
+                    </a>
+                    <a class="botao-menu info-links" href="https://br.linkedin.com/in/bruna-bertolini">
+                        <img src="img/linkedin.png" class="rounded-circle  icone">
+                        <small>Linkedin.com/BrunaBertolini</small>
+                    </a>
+                    <label class="botao-menu info-links" href="">
+                        <img src="img/mail.png" class="rounded-circle  icone">
+                        <small>BruBertolinii@gmail.com</small>
+                    </label>
+                    <label class="botao-menu info-links">
+                        <img src="img/fone.png" class="rounded-circle  icone">
+                        <small>(11)&nbsp;9-5020-3794 </small>
+                    </label>
+                </div>
             </div>
         </div>
     </nav>
     <br />
     <div class="container body-content clearfix side-buffer">
 
+        <div id="quemSou" div class="row">
+
+            <div class="col-sm-12 center-image">
+                <h2>Bruna Bertolini</h2>
+                <p>Olá, tenho 24 anos, sou brasileira, desenvolvedora PL/SQL, Java e Angular+2. Formada em Análise e desenvolvimento
+                    de Sistemas, trabalhando atuamente na IBM Brasil. Fluente em Inglês e aprendendo Espanhol</p>
+                <br>
+                <h5>Conheça mais um pouco abaixo:</h5>
+            </div>
+        </div>
+        <br>
+        <br>
         <div id="academico">
             <div class="row">
                 <h3 class="col-sm-12 top-buffer center-image">Acadêmico</h3>
             </div>
-
+            <hr class="linha">
             <div class="row">
-                <div class="col-sm-6 top-buffer center-image">
+                <div class="col-sm-4 top-buffer center-image">
                     <h3>MBA</h3>
                     <img src="img/fiap.jpg" class="rounded-circle margin-image imagem" />
                     <p>Full Stack Developer SOA e Internet das Coisas</p>
@@ -46,12 +76,22 @@
                     </p>
 
                 </div>
-                <div class="col-sm-6 top-buffer center-image">
+                <div class="col-sm-4 top-buffer center-image">
                     <h3>Graduação</h3>
                     <img src="img/fiap.jpg" class="rounded-circle margin-image imagem" />
                     <p>Tecnólogo de Análise e Desenvolvimento de Sistemas</p>
                     </p>
                     <small>2014 - 2015</small>
+                    </p>
+
+                </div>
+
+                <div class="col-sm-4 top-buffer center-image">
+                    <h3>Técnico</h3>
+                    <img src="img/fb.png" class="rounded-circle margin-image imagem" />
+                    <p>Curso Técnico em Informática</p>
+                    </p>
+                    <small>2013 - 2014</small>
                     </p>
 
                 </div>
@@ -61,20 +101,43 @@
             <div class="row topbuffer">
                 <h3 class="col-sm-12 top-buffer center-image">Experiências</h3>
             </div>
-            <div class="row topbuffer center-image">
+            <hr class="linha">
 
-                <ul class=" col-sm-5 top-buffer list-group ">
-                    <li class="list-group-item active">
-                        <u>IBM - Application Developer</u>
+            <div class="row topbuffer">
+                <div class="col-sm-1 "></div>
+                <ul class="col-sm-5 top-buffer list-group ">
+                    <li class="list-group-item caixa">
+                        <b>IBM - Application Developer</b>
+                        <br>
+                        <small>Setembro de 2015 - Atual</small>
                     </li>
-                    <li class="list-group-item">Descri~cao</li>
+                    <li class="list-group-item caixaDescricao">
+                        Atividades Principais:
+                        <ul>
+                            <li>Levantamento de dados específicos na base de dados</li>
+                            <li>Desenvolvimento de soluções técnicas em PL/SQL e Java JSF a partir da
+                                <li>extração de requisitos funcionais e não funcionais</li>
+                                <li>Execução de testes unitários</li>
+                                <li>Acompanhamento de homologação e implantação</li>
+                        </ul>
+                        </li>
                 </ul>
 
                 <ul class="col-sm-5 top-buffer list-group">
-                    <li class="list-group-item active">
-                        <u>InfoSERVER - Técnica de Informática</u>
+                    <li class="list-group-item caixa">
+                        <b>InfoSERVER - Técnica de Informática</b>
+                        <br>
+                        <small>Julho de 2013 - Setembro de 2015</small>
                     </li>
-                    <li class="list-group-item">Descri~cao</li>
+                    <li class="list-group-item caixaDescricao">Atividades Principais?
+                        <ul>
+                            <li>Rollout de máquinas</li>
+                            <li>Suporte a SharePoint 2010 e 2013</li>
+                            <li>Desenvolvimento de customizações em Microsoft Visio</li>
+                            <li>Desenvolvimento de customizações em SharePoint</li>
+
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -82,52 +145,125 @@
             <div class="row topbuffer">
                 <h3 class="col-sm-12 top-buffer center-image">Idiomas</h3>
             </div>
-            <div class="row topbuffer center-image">
-                <div>
-                    <p>Inglês</p>
-                    <p>
-                        <small>Avançado</small>
-                    </p>
-                    <p>
-                        <small>Experiência de Intercâmbio na Nova Zelândia</small>
-                    </p>
-                </div>
-                <div>
-                    <p>Espanhol</p>
-                    <p>
-                        <small>Básico</small>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div id="outros">
-            <div class="row topbuffer">
-                <h3 class="col-sm-12 top-buffer center-image">Outros Conhecimentos</h3>
-            </div>
-            <div class="row topbuffer center-image">
-                <p>Programação</p>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    
+            <hr class="linha">
 
-    <footer class="footer">
-        <p>
-            <i> &copy;2018 - All rights reserved to Bruna Bertolini</i>
-        </p>
-    </footer>
+            <div class="row topbuffer center-image">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-5 top-buffer">
+                    <h4>Inglês</h4>
+                    <br>
+                    <div class="stepwizard alinha-step">
+                        <div class="stepwizard-row">
+                            <div class="stepwizard-step">
+                                <button type="button" class="btn botao-steps btn-circle step-alcancado">1</button>
+                                <p>Básico</p>
+                            </div>
+                            <div class="stepwizard-step">
+                                <button type="button" class="btn botao-steps btn-circle step-alcancado">2</button>
+                                <p>Intermediário</p>
+                            </div>
+                            <div class="stepwizard-step">
+                                <button type="button" class="btn botao-steps btn-circle step-alcancado">3</button>
+                                <p>Avançado</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="center-image">Experiência de Intercâmbio na Nova Zelândia</small>
+                </div>
+                <div class="col-sm-5 top-buffer">
+                    <h4>Espanhol</h4>
+                    <br>
+                    <div class="stepwizard alinha-step">
+                        <div class="stepwizard-row">
+                            <div class="stepwizard-step">
+                                <button type="button" class="btn botao-steps btn-circle step-alcancado">1</button>
+                                <p>Básico</p>
+                            </div>
+                            <div class="stepwizard-step">
+                                <button type="button" class="btn botao-steps btn-circle">2</button>
+                                <p>Intermediário</p>
+                            </div>
+                            <div class="stepwizard-step">
+                                <button type="button" class="btn botao-steps btn-circle">3</button>
+                                <p>Avançado</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+            <div id="outros">
+                <div class="row topbuffer">
+                    <h3 class="col-sm-12 top-buffer center-image">Outros Conhecimentos</h3>
+                </div>
+                <hr class="linha">
+                <div class="row topbuffer center-image">
+                    <div class="col-sm-1"></div>
+                    <ul class="col-sm-2 top-buffer list-group ">
+                        <li class="list-group-item caixa">Programação
+                        </li>
+                        <li class="list-group-item caixaDescricao">
+                            .NET C# e C#
+                            <br> Java EE e JPA
+                            <br> SQL e PL/SQL
+                            <br> HTML e CSS
+                            <br> JavaScript e Jquery
+                            <br> Angular+2
+                            <br> NodeJs
+                            <br> VBA
+
+                        </li>
+                    </ul>
+                    <ul class="col-sm-2 top-buffer list-group">
+                        <li class="list-group-item caixa">Banco de Dados
+                        </li>
+                        <li class="list-group-item caixaDescricao">
+                            SQL Server
+                            <br> Oracle Database
+                            <br> Bancos NoSQL
+                    </ul>
+                    <ul class="col-sm-2 top-buffer list-group">
+                        <li class="list-group-item caixa">Outros Programas </li>
+                        <li class="list-group-item caixaDescricao">
+                            Microsoft Sharepoint
+                            <br> Microsoft Service Manager
+                            <br> IBM Bluemix
+                            <br> Microsoft Project
+                            <br> Microsoft Visio Microsoft Excel
+                        </li>
+                    </ul>
+
+                    <ul class="col-sm-2 top-buffer list-group">
+                        <li class="list-group-item caixa">Metodologias
+                        </li>
+                        <li class="list-group-item caixaDescricao">
+                            Mindset Ágil
+                            <br> Scrum
+                        </li>
+                    </ul>
+                    <ul class="col-sm-2 top-buffer list-group ">
+                        <li class="list-group-item caixa">Design</li>
+                        <li class="list-group-item caixaDescricao">
+                            Adobe Photoshop
+                            <br> Adobe Illustrator
+                            <br> CorelDRAW
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+        </div>
+        <footer class="footer">
+            <p>
+                <i> &copy;2018 - All rights reserved to Bruna Bertolini</i>
+            </p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="js/scripts.js"></script>
 </body>
 
 </html>
